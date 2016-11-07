@@ -1,0 +1,95 @@
+/*
+ * Dit is de custom style sheet van jouw website
+ *
+ */
+
+body {
+    margin-top: 70px;
+}
+
+.desc {
+    background-color: #fff;
+    border: 1px solid #000;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -20px;
+    width: 200px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+ul.topnav {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {
+    z-index: 100;
+    float: left;
+}
+
+ul.topnav li a {
+    z-index: 100;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.topnav li a:hover {
+    background-color: #555;
+}
+
+ul.topnav li.icon {
+    display: none;
+}
+.menu_selected{
+    background-color: #555;
+}
+@media screen and (max-width:680px) {
+    ul.topnav li:not(.display) {
+        display: none;
+    }
+    ul.topnav li.icon {
+        float: right;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:680px) {
+    ul.topnav.responsive {
+        position: fixed;
+    }
+    ul.topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+}

@@ -1,0 +1,56 @@
+.about pre {
+    max-width: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+@media screen and (min-width:680px) {
+    .about {
+        vertical-align: top;
+        display: inline-block;
+        border-radius: 5px;
+        margin: 0 auto;
+        width: 47%;
+        height: auto;
+        background-color: lightgray;
+        opacity: .8;
+        /*position: relative;*/
+        text-align: center;
+        padding-bottom: 10px;
+        height: 100%;
+    }
+    .about img {
+        vertical-align: middle;
+        width: 90%;
+        border-radius: 5px;
+    }
+    .about iframe {
+        vertical-align: middle;
+        border-radius: 5px;
+        width: 100%;
+        height: 20em;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .about {
+        border-radius: 5px;
+        margin: 0 auto;
+        width: 100%;
+        /*        height: 100%;*/
+        background-color: lightgray;
+        opacity: .8;
+        /*position: relative;*/
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .about img {
+        width: 90%;
+        border-radius: 5px;
+    }
+    .about iframe {
+        border-radius: 5px;
+        width: 100%;
+        height: 20em;
+    }
+}

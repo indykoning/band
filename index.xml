@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+ <rss version="2.0"> 
+     <channel> 
+         <title>homepage</title>
+		 <link>http://20502.hosts.ma-cloud.nl/jaar_2/project/band/</link>
+		 <description>de homepage van dit project</description> 
+         <copyright>indy</copyright> 
+
+         <item>
+		<title>about</title>
+		<link>http://20502.hosts.ma-cloud.nl/jaar_2/project/band/About</link>
+		<description>de about pagina</description> 
+		<pubdate>14-10-2016</pubdate>
+		</item> 
+         
+     </channel> 
+ </rss> 
